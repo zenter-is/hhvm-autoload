@@ -42,6 +42,17 @@ final class ComposerPlugin
     $this->root = dirname($vendor);
   }
 
+  
+  public function deactivate(Composer $composer, IOInterface $io)
+  {
+
+  }
+  
+  public function uninstall(Composer $composer, IOInterface $io)
+  {
+
+  }
+
   /** Tell composer what events we're interested in.
    *
    * In this case, we want to run whenever composer's own autoload map is updated.
