@@ -8,7 +8,7 @@
     "bin/hh-autoload"
   ],
   "require": {
-    "composer-plugin-api": "^1.0",
+    "composer-plugin-api": "^2.0",
     "hhvm": "^3.28"
   },
   "require-dev": {
